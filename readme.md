@@ -17,7 +17,7 @@ Here are instructions for installing docker on a mac: https://docs.docker.com/do
 
 ### Getting it running
 
-Now that you've got docker installed and this code cloned, we can simply build the docker image with:
+Now that you've got docker installed and this code cloned, we can simply build our docker image by running the following from inside the root level of this repository:
 
 ```
 docker build --build-arg servername_arg=[replace this with your internal server name] -t [replace this with a tag for your docker image] .
