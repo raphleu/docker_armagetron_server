@@ -4,6 +4,8 @@
 
 The intention of this repository is to make your life running a server easier. If you would like to expirement with settings or scripts, this is a great way to get started doing that locally. You can then take your learnings here and apply them to a server hosted over the internet. 
 
+I first made this to get a newer version of tron server (sty+ct+ap) running locally so that I could try writing some scripts. It turns out, that version of tron server has some OS requirements which I didn't meet with my laptop. That's where docker came in to save the day and make my life easier. Hope it can make yours easier.
+
 ## Getting Started
 
 These instuctions will get you running an armagetron server locally, which you will be able to connect your client to. From there, the world is your oyster. 
