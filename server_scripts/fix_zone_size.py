@@ -17,10 +17,10 @@ while True:
 			num_players = int(parsed_line[1]);
 	if line.startswith("ROUND_COMMENCING"):
 		if num_players != -1:
-			if num_players > 12:
-				num_players = 12;
+			if num_players > 10:
+				num_players = 10;
 			elif num_players < 2:
 				num_players = 2;
 			print("CONSOLE_MESSAGE Zone size adjusted for "+str(num_players)+" players.");
-			print("MAP_FILE Titanoboa/sumobar/dynamic-"+str(num_players)+".aamap.xml");
+			print("MAP_FILE Titanoboa/sumobar/dynamic-0."+str(num_players)+".aamap.xml");
 			print("SIZE_FACTOR 1");
